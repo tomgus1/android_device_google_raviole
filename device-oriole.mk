@@ -174,6 +174,10 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.support_hide_display_cutout=true
 
+# HBM
+PRODUCT_PACKAGES += \
+    HbmSVManagerOverlay
+
 # Hide cutout overlays
 PRODUCT_PACKAGES += \
     NoCutoutOverlay \
