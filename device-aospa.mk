@@ -65,6 +65,11 @@ PRODUCT_PACKAGES += \
     nos_app_keymaster:64 \
     nos_app_weaver:64
 
+# Overlays
+PRODUCT_PACKAGES += \
+    AOSPAFrameworksOverlayOriole \
+    AOSPAFrameworksOverlayRaven
+
 # Telephony
 PRODUCT_PACKAGES += \
     ImsServiceEntitlement \
